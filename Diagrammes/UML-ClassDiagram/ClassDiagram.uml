@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_luTUUPrQEeeawv7hUK1Dow" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_sccnUPrQEeeawv7hUK1Dow" name="UML" visibility="package">
+    <packagedElement xmi:type="uml:Class" xmi:id="_z6YYgPrQEeeawv7hUK1Dow" name="ClassUser" isAbstract="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_n9foYPrTEeeawv7hUK1Dow" name="email" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_z8rXMPrTEeeawv7hUK1Dow" name="password" visibility="private" isStatic="true" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1tzTMP-MEee_HZDQrl4f2w" name="sSession" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_pqNlgP-MEee_HZDQrl4f2w" name="connexion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rQAeoP-MEee_HZDQrl4f2w" name="deconnexion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ubfjMP-MEee_HZDQrl4f2w" name="AddSession"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vTjzoP-MEee_HZDQrl4f2w" name="DelSession"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GuURQPrUEeeawv7hUK1Dow" name="ClassRoom">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yXd3cPrUEeeawv7hUK1Dow" name="name" visibility="protected" isStatic="true" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_EUQ0MPrVEeeawv7hUK1Dow" name="length" visibility="protected" isStatic="true" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_c48D4PrVEeeawv7hUK1Dow" name="width" visibility="protected" isStatic="true" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0xzWcPrVEeeawv7hUK1Dow" name="surface" visibility="protected" isStatic="true" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FBkYMP-NEee_HZDQrl4f2w" name="ImgCube" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5DvFsPrVEeeawv7hUK1Dow" name="ClassVisite" visibility="package">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KRdV8PrWEeeawv7hUK1Dow" name="currentRoom" visibility="protected" type="_GuURQPrUEeeawv7hUK1Dow" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bFnJEP-LEee_HZDQrl4f2w" name="nbRoom" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1lEDYP-LEee_HZDQrl4f2w" name="price" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7lhJ8P-LEee_HZDQrl4f2w" name="address" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8O8sAP-MEee_HZDQrl4f2w" name="title" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UEUlsP-NEee_HZDQrl4f2w" name="area" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JSnzIP-MEee_HZDQrl4f2w" name="GetPrice"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LdLmMP-MEee_HZDQrl4f2w" name="GetAddress"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MVwM8P-MEee_HZDQrl4f2w" name="GetArea"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_SS9yQP-MEee_HZDQrl4f2w" name="GetNbRoom"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RL7uMP-LEee_HZDQrl4f2w" name="ClassSearch">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fG1tYP-MEee_HZDQrl4f2w" name="filter" visibility="protected"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_icPi8P-MEee_HZDQrl4f2w" name="GetFilter"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_knyNcP-MEee_HZDQrl4f2w" name="SetSearch"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_KVg-EP-NEee_HZDQrl4f2w" name="ClassSearch">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KVg-Ef-NEee_HZDQrl4f2w" name="filter" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_KVg-Ev-NEee_HZDQrl4f2w" name="GetFilter"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_KVg-E_-NEee_HZDQrl4f2w" name="SetSearch"/>
+      </nestedClassifier>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

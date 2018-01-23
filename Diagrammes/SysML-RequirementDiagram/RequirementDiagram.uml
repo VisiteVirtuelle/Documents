@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_HSVzEPrOEeeC-t76JDkNdQ" name="RootElement" visibility="package">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_HdCAIPrOEeeC-t76JDkNdQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_HdYlcPrOEeeC-t76JDkNdQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LtfvwPrOEeeC-t76JDkNdQ" name="Deplacement dans un environnement virtuel">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_AEZJMPrPEeeC-t76JDkNdQ" name="Changement de pièce"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_1RmfkPrPEeeC-t76JDkNdQ" name="Mise à jour"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_tUnI8PrREeeC-t76JDkNdQ" name="Utilisateurs"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ELPicPrSEeeC-t76JDkNdQ" name="Visiteur">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_slinAPrSEeeC-t76JDkNdQ" name="Visiteur"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_dHin8PrSEeeC-t76JDkNdQ" name="" client="_ELPicPrSEeeC-t76JDkNdQ" supplier="_tUnI8PrREeeC-t76JDkNdQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sv7SEPrSEeeC-t76JDkNdQ" name="Inscrit"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_xRvQYPrSEeeC-t76JDkNdQ" client="_sv7SEPrSEeeC-t76JDkNdQ" supplier="_tUnI8PrREeeC-t76JDkNdQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8JkVkPrSEeeC-t76JDkNdQ" name="Administrateur"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_bsCd0PrTEeeC-t76JDkNdQ" client="_8JkVkPrSEeeC-t76JDkNdQ" supplier="_tUnI8PrREeeC-t76JDkNdQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HXupYPrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HX0wAPrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc7ScPrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hc7ScfrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc9usPrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hc-VwPrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc-VwfrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hc-VwvrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc-80PrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hc-80frOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc-80vrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hc_j4PrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc_j4frOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hc_j4vrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hc_j4_rOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HdAK8PrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HdAK8frOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HdAK8vrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HdAyAPrOEeeC-t76JDkNdQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HdAyAfrOEeeC-t76JDkNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_L_iiAPrOEeeC-t76JDkNdQ" base_Class="_LtfvwPrOEeeC-t76JDkNdQ" id="1" text="Se déplacer dans un bien immobilier de manière virtuelle.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_AEi6MPrPEeeC-t76JDkNdQ" base_Class="_AEZJMPrPEeeC-t76JDkNdQ" id="1.1" text="Navigation virtuelle intéligente entre les élements du bien immobilier.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_1RubYPrPEeeC-t76JDkNdQ" base_Class="_1RmfkPrPEeeC-t76JDkNdQ" id="1.2" text="Les images archivés seront utilisables sur le site&#xD;&#xA;&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_tUtPkPrREeeC-t76JDkNdQ" base_Class="_tUnI8PrREeeC-t76JDkNdQ" id="1.3" text="Les interactions des utilisateurs avec le site sont différentes selon leur statut"/>
+  <Requirements:Requirement xmi:id="_ELVpEPrSEeeC-t76JDkNdQ" base_Class="_ELPicPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter les environnements virtuels"/>
+  <Requirements:Refine xmi:id="_dH3_IPrSEeeC-t76JDkNdQ" base_DirectedRelationship="_dHin8PrSEeeC-t76JDkNdQ" base_Abstraction="_dHin8PrSEeeC-t76JDkNdQ"/>
+  <Requirements:Requirement xmi:id="_slqi0PrSEeeC-t76JDkNdQ" base_Class="_slinAPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter les environnement virtuel"/>
+  <Requirements:Requirement xmi:id="_swItcPrSEeeC-t76JDkNdQ" base_Class="_sv7SEPrSEeeC-t76JDkNdQ" id="1.3.2" text="Peut visiter les environnements virtuels et se connecter"/>
+  <Requirements:Refine xmi:id="_xSCLUPrSEeeC-t76JDkNdQ" base_DirectedRelationship="_xRvQYPrSEeeC-t76JDkNdQ" base_Abstraction="_xRvQYPrSEeeC-t76JDkNdQ"/>
+  <Requirements:Requirement xmi:id="_8JyYAPrSEeeC-t76JDkNdQ" base_Class="_8JkVkPrSEeeC-t76JDkNdQ" id="1.3.3" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
+  <Requirements:Refine xmi:id="_bsPSIPrTEeeC-t76JDkNdQ" base_DirectedRelationship="_bsCd0PrTEeeC-t76JDkNdQ" base_Abstraction="_bsCd0PrTEeeC-t76JDkNdQ"/>
+</xmi:XMI>

@@ -21,7 +21,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dIG2IQBYEeiZXIyaG8KKjQ" x="51" y="196" width="16" height="96"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#_5QLQ4ABUEeiZXIyaG8KKjQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QO7QQBUEeiZXIyaG8KKjQ" x="62" y="10" width="118" height="699"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QO7QQBUEeiZXIyaG8KKjQ" x="62" y="10" width="118" height="697"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_-vbu4ABUEeiZXIyaG8KKjQ" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_-vcV8ABUEeiZXIyaG8KKjQ" type="Lifeline_NameLabel"/>
@@ -34,7 +34,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TaVlwQBXEeiZXIyaG8KKjQ" x="42" y="93" width="16" height="115"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#_-vWPUABUEeiZXIyaG8KKjQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-vbu4QBUEeiZXIyaG8KKjQ" x="235" y="10" width="100" height="699"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-vbu4QBUEeiZXIyaG8KKjQ" x="235" y="10" width="100" height="697"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="__NwpoABUEeiZXIyaG8KKjQ" type="Lifeline_Shape">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sLFtIABYEeiZXIyaG8KKjQ" source="CustomExtensionInfo">
@@ -50,7 +50,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O5s2sQBYEeiZXIyaG8KKjQ" x="58" y="114" width="16" height="64"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#__NrxIABUEeiZXIyaG8KKjQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NxQsABUEeiZXIyaG8KKjQ" x="392" y="10" width="132" height="699"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NxQsABUEeiZXIyaG8KKjQ" x="392" y="10" width="132" height="697"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXcVpABUEeiZXIyaG8KKjQ"/>
     </children>

@@ -10,15 +10,15 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_4j4dkP-OEee_HZDQrl4f2w"/>
     <generalization xmi:type="uml:Generalization" xmi:id="_9c5a8P-OEee_HZDQrl4f2w" general="_9cRI0P-OEee_HZDQrl4f2w"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_VN8DsP-OEee_HZDQrl4f2w" name="Préprarer et archiver les photos 360°"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VN8DsP-OEee_HZDQrl4f2w" name="Préparer et archiver les photos 360°"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_cHYAsP-OEee_HZDQrl4f2w" name="Ajout d'un nouveau bien immobilier"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_llm1sP-OEee_HZDQrl4f2w" name="Se connecter/ Se deconnecter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_llm1sP-OEee_HZDQrl4f2w" name="Se connecter / Se deconnecter"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_pla6MP-OEee_HZDQrl4f2w" name="Visiter un bien immobilier"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_x8PbMP-OEee_HZDQrl4f2w" name="S'inscrire sur la plateforme"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_9cRI0P-OEee_HZDQrl4f2w" name="Visiteur inscrit">
     <generalization xmi:type="uml:Generalization" xmi:id="__2vAIP-OEee_HZDQrl4f2w" general="__2XzwP-OEee_HZDQrl4f2w"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="__2XzwP-OEee_HZDQrl4f2w" name="Visiteru anonyme"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__2XzwP-OEee_HZDQrl4f2w" name="Visiteur anonyme"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_IjdfsP-PEee_HZDQrl4f2w" name="Dossier photo"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_LKsnsP-PEee_HZDQrl4f2w" name="Fichier xml"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_NLZ7MP-PEee_HZDQrl4f2w" name="BBD projet"/>

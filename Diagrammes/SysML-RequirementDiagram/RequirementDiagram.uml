@@ -82,9 +82,9 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_L_iiAPrOEeeC-t76JDkNdQ" base_Class="_LtfvwPrOEeeC-t76JDkNdQ" id="1" text="Se déplacer dans un bien immobilier de manière virtuelle.&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_AEi6MPrPEeeC-t76JDkNdQ" base_Class="_AEZJMPrPEeeC-t76JDkNdQ" id="1.1" text="Navigation virtuelle intéligente entre les élements du bien immobilier.&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_1RubYPrPEeeC-t76JDkNdQ" base_Class="_1RmfkPrPEeeC-t76JDkNdQ" id="1.2" text="Les images archivés seront utilisables sur le site&#xD;&#xA;&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_tUtPkPrREeeC-t76JDkNdQ" base_Class="_tUnI8PrREeeC-t76JDkNdQ" id="1.3" text="Les interactions des utilisateurs avec le site sont différentes selon leur statut"/>
+  <Requirements:Requirement xmi:id="_AEi6MPrPEeeC-t76JDkNdQ" base_Class="_AEZJMPrPEeeC-t76JDkNdQ" id="1.1" text="Navigation virtuelle intelligente entre les élements du bien immobilier.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_1RubYPrPEeeC-t76JDkNdQ" base_Class="_1RmfkPrPEeeC-t76JDkNdQ" id="1.2" text="Les images archivées seront utilisables sur le site&#xD;&#xA;&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_tUtPkPrREeeC-t76JDkNdQ" base_Class="_tUnI8PrREeeC-t76JDkNdQ" id="1.3" text="Les interactions des utilisateurs avec l'application sont différentes selon leur statut"/>
   <Requirements:Requirement xmi:id="_ELVpEPrSEeeC-t76JDkNdQ" base_Class="_ELPicPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter les environnements virtuels"/>
   <Requirements:Refine xmi:id="_dH3_IPrSEeeC-t76JDkNdQ" base_DirectedRelationship="_dHin8PrSEeeC-t76JDkNdQ" base_Abstraction="_dHin8PrSEeeC-t76JDkNdQ"/>
   <Requirements:Requirement xmi:id="_slqi0PrSEeeC-t76JDkNdQ" base_Class="_slinAPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter les environnement virtuel"/>

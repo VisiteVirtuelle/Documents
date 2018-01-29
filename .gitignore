@@ -3,3 +3,6 @@
 
 #Papyrus
 .project
+
+#Mindview
+~$*.mvdx

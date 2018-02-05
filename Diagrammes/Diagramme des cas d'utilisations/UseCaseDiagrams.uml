@@ -120,6 +120,21 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_EtQ0w_-QEee_HZDQrl4f2w" name="visiter un bien immobilier" type="_pla6MP-OEee_HZDQrl4f2w" association="_EtQ0wP-QEee_HZDQrl4f2w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_EtQ0xP-QEee_HZDQrl4f2w" name="fichier xml" type="_LKsnsP-PEee_HZDQrl4f2w" association="_EtQ0wP-QEee_HZDQrl4f2w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pbTBQAp4Eeih6KLU_3l4yA" name="Autoriser la visite d'un projet à un utilisateur inscrit"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2QsmYAp4Eeih6KLU_3l4yA" memberEnd="_2Q4MkAp4Eeih6KLU_3l4yA _2Q4zoAp4Eeih6KLU_3l4yA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Q2-cAp4Eeih6KLU_3l4yA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2Q2-cQp4Eeih6KLU_3l4yA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2Q4MkAp4Eeih6KLU_3l4yA" name="administrateur" type="_S-kpIP-OEee_HZDQrl4f2w" association="_2QsmYAp4Eeih6KLU_3l4yA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2Q4zoAp4Eeih6KLU_3l4yA" name="autoriser la visite d'un projet à un utilisateur inscrit" type="_pbTBQAp4Eeih6KLU_3l4yA" association="_2QsmYAp4Eeih6KLU_3l4yA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7t4n0Ap4Eeih6KLU_3l4yA" memberEnd="_7t5O4Ap4Eeih6KLU_3l4yA _7t5O4Qp4Eeih6KLU_3l4yA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7t4n0Qp4Eeih6KLU_3l4yA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7t4n0gp4Eeih6KLU_3l4yA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7t5O4Ap4Eeih6KLU_3l4yA" name="bbd projet" type="_NLZ7MP-PEee_HZDQrl4f2w" association="_7t4n0Ap4Eeih6KLU_3l4yA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7t5O4Qp4Eeih6KLU_3l4yA" name="autoriser la visite d'un projet à un utilisateur inscrit" type="_pbTBQAp4Eeih6KLU_3l4yA" association="_7t4n0Ap4Eeih6KLU_3l4yA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_77wNwP-NEee_HZDQrl4f2w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_774JkP-NEee_HZDQrl4f2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>

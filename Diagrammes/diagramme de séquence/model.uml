@@ -99,18 +99,18 @@
     <message xmi:type="uml:Message" xmi:id="_u1fecAgaEeiqPrXGED4UNA" name="Création du compte dans la base de donnée" receiveEvent="_u1ihwAgaEeiqPrXGED4UNA" sendEvent="_u1h6sAgaEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_7nc4kAgbEeiqPrXGED4UNA" name="Demande de visite de projet de vente" receiveEvent="_7nf74AgbEeiqPrXGED4UNA" sendEvent="_7netwAgbEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_DJKWgAgcEeiqPrXGED4UNA" name="Récupération des données du projet" receiveEvent="_DJMLsAgcEeiqPrXGED4UNA" sendEvent="_DJLkoAgcEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_J0GkgAgcEeiqPrXGED4UNA" name="Envoie des données du projet" receiveEvent="_J0Jn0AgcEeiqPrXGED4UNA" sendEvent="_J0IZsAgcEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_J0GkgAgcEeiqPrXGED4UNA" name="Envoi des données du projet" receiveEvent="_J0Jn0AgcEeiqPrXGED4UNA" sendEvent="_J0IZsAgcEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_cvAn8AgfEeiqPrXGED4UNA" name="Se connecter" receiveEvent="_cvB2EAgfEeiqPrXGED4UNA" sendEvent="_cvBPAAgfEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_jG_dsAgfEeiqPrXGED4UNA" name="récupération des données de l'utilisateur" receiveEvent="_jHChAAgfEeiqPrXGED4UNA" sendEvent="_jHBS4AgfEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_ooYpsAgfEeiqPrXGED4UNA" name="connection" receiveEvent="_oobtAAgfEeiqPrXGED4UNA" sendEvent="_ooae4AgfEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_jG_dsAgfEeiqPrXGED4UNA" name="Récupération des données de l'utilisateur" receiveEvent="_jHChAAgfEeiqPrXGED4UNA" sendEvent="_jHBS4AgfEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_ooYpsAgfEeiqPrXGED4UNA" name="Connexion" receiveEvent="_oobtAAgfEeiqPrXGED4UNA" sendEvent="_ooae4AgfEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_2lyGwAghEeiqPrXGED4UNA" name="Demande de visite de projet de vente" receiveEvent="_2l1xIAghEeiqPrXGED4UNA" sendEvent="_2l0jAAghEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_3HByoAghEeiqPrXGED4UNA" name="Récupération des données du projet" receiveEvent="_3HDAwAghEeiqPrXGED4UNA" sendEvent="_3HCZsAghEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_3pMrkAghEeiqPrXGED4UNA" name="Envoie des données du projet" receiveEvent="_3pN5sAghEeiqPrXGED4UNA" sendEvent="_3pNSoAghEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_ANDmMAgmEeiqPrXGED4UNA" name="Préparer et archiver des photo en 3D" receiveEvent="_ANE0UAgmEeiqPrXGED4UNA" sendEvent="_ANENQAgmEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_3pMrkAghEeiqPrXGED4UNA" name="Envoi des données du projet" receiveEvent="_3pN5sAghEeiqPrXGED4UNA" sendEvent="_3pNSoAghEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_ANDmMAgmEeiqPrXGED4UNA" name="Préparer et archiver des photos en 3D" receiveEvent="_ANE0UAgmEeiqPrXGED4UNA" sendEvent="_ANENQAgmEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_Ek1ewAgmEeiqPrXGED4UNA" name="Stockage des photos" receiveEvent="_Ek2s4AgmEeiqPrXGED4UNA" sendEvent="_Ek2F0AgmEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_NJ-IkAgmEeiqPrXGED4UNA" name="Créer un projet de vente" receiveEvent="_NKBL4AgmEeiqPrXGED4UNA" sendEvent="_NKAk0AgmEeiqPrXGED4UNA"/>
     <message xmi:type="uml:Message" xmi:id="_RBJOcAgmEeiqPrXGED4UNA" name="Stockage du projet de vente" receiveEvent="_RBM40AgmEeiqPrXGED4UNA" sendEvent="_RBLqsAgmEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_XyFWwAgmEeiqPrXGED4UNA" name="Autoriser les visites de projets a des utilisateurs" receiveEvent="_XyGk4AgmEeiqPrXGED4UNA" sendEvent="_XyF90AgmEeiqPrXGED4UNA"/>
-    <message xmi:type="uml:Message" xmi:id="_c0kZMAgmEeiqPrXGED4UNA" name="Mise a jour des utilisateurs" receiveEvent="_c0lnUQgmEeiqPrXGED4UNA" sendEvent="_c0lnUAgmEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_XyFWwAgmEeiqPrXGED4UNA" name="Autoriser les visites de projets à des utilisateurs" receiveEvent="_XyGk4AgmEeiqPrXGED4UNA" sendEvent="_XyF90AgmEeiqPrXGED4UNA"/>
+    <message xmi:type="uml:Message" xmi:id="_c0kZMAgmEeiqPrXGED4UNA" name="Mise à jour des utilisateurs" receiveEvent="_c0lnUQgmEeiqPrXGED4UNA" sendEvent="_c0lnUAgmEeiqPrXGED4UNA"/>
   </packagedElement>
 </uml:Model>

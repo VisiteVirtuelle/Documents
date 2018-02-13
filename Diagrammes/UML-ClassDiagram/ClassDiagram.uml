@@ -15,8 +15,9 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_rQAeoP-MEee_HZDQrl4f2w" name="deconnexion"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_ubfjMP-MEee_HZDQrl4f2w" name="AddSession"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_vTjzoP-MEee_HZDQrl4f2w" name="DelSession"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1y4FoBCREeioo-48y0HB3g" name="Inscription"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_GuURQPrUEeeawv7hUK1Dow" name="ClassRoom">
+    <packagedElement xmi:type="uml:Class" xmi:id="_GuURQPrUEeeawv7hUK1Dow" name="ClassRoom" visibility="public">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_yXd3cPrUEeeawv7hUK1Dow" name="name" visibility="protected" isStatic="true" isUnique="false">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -29,9 +30,13 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_0xzWcPrVEeeawv7hUK1Dow" name="surface" visibility="protected" isStatic="true" isUnique="false">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_FBkYMP-NEee_HZDQrl4f2w" name="ImgCube" visibility="protected">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FBkYMP-NEee_HZDQrl4f2w" name="ImgSphere" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_C1rNkBCSEeioo-48y0HB3g" name="RoomNew"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_DsWW4BCSEeioo-48y0HB3g" name="RoomDel"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FyfkABCSEeioo-48y0HB3g" name="RoomScript"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TeYsQBCSEeioo-48y0HB3g" name="RoomParse"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_5DvFsPrVEeeawv7hUK1Dow" name="ClassVisite" visibility="package">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_KRdV8PrWEeeawv7hUK1Dow" name="currentRoom" visibility="protected" type="_GuURQPrUEeeawv7hUK1Dow" isUnique="false"/>
@@ -64,6 +69,31 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_KVg-Ev-NEee_HZDQrl4f2w" name="GetFilter"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_KVg-E_-NEee_HZDQrl4f2w" name="SetSearch"/>
       </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yGa3cBCQEeioo-48y0HB3g" name="ClassAdmin" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2i_wcBCQEeioo-48y0HB3g" general="_z6YYgPrQEeeawv7hUK1Dow"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Vzy54BCREeioo-48y0HB3g" name="nbVisite" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_C98OMBCREeioo-48y0HB3g" name="AddVisite"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FVFEsBCREeioo-48y0HB3g" name="DelVisite"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_IA9cIBCREeioo-48y0HB3g" name="EditVisite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oFSe0BCSEeioo-48y0HB3g" name="ClassDataLink">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_v0EIYBCSEeioo-48y0HB3g" name="KeyBDD">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xq1cwBCSEeioo-48y0HB3g" name="NameBDD">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zNka0BCSEeioo-48y0HB3g" name="UrlBDD">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3OcPQBCSEeioo-48y0HB3g" name="UserBDD">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_630JsBCSEeioo-48y0HB3g" name="DoLink"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7u14UBCSEeioo-48y0HB3g" name="CloseLink"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>

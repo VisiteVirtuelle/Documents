@@ -108,7 +108,7 @@
   <Requirements:Refine xmi:id="_xSCLUPrSEeeC-t76JDkNdQ" base_DirectedRelationship="_xRvQYPrSEeeC-t76JDkNdQ" base_Abstraction="_xRvQYPrSEeeC-t76JDkNdQ"/>
   <Requirements:Requirement xmi:id="_8JyYAPrSEeeC-t76JDkNdQ" base_Class="_8JkVkPrSEeeC-t76JDkNdQ" id="1.3.3" text="À tous les droits et peut réaliser toutes les opérations"/>
   <Requirements:Refine xmi:id="_bsPSIPrTEeeC-t76JDkNdQ" base_DirectedRelationship="_bsCd0PrTEeeC-t76JDkNdQ" base_Abstraction="_bsCd0PrTEeeC-t76JDkNdQ"/>
-  <Requirements:Requirement xmi:id="_FRS3QBCZEeiALZLFScVllA" base_Class="_FRHREBCZEeiALZLFScVllA" id="1.4" text="Les utilisateurs pourront recherche les biens"/>
+  <Requirements:Requirement xmi:id="_FRS3QBCZEeiALZLFScVllA" base_Class="_FRHREBCZEeiALZLFScVllA" id="1.4" text="Les utilisateurs pourront recherche les biens immobiliers"/>
   <Requirements:Requirement xmi:id="_dh1qABCZEeiALZLFScVllA" base_Class="_dhwKcBCZEeiALZLFScVllA" id="1.3.3.1" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
   <Requirements:Requirement xmi:id="_t0yUEBCZEeiALZLFScVllA" base_Class="_t0pxMBCZEeiALZLFScVllA" id="1.3.3.1" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
   <Requirements:Requirement xmi:id="_uOsB0BCZEeiALZLFScVllA" base_Class="_uOlUIRCZEeiALZLFScVllA" id="1.3.3.1" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
@@ -117,5 +117,5 @@
   <Requirements:Requirement xmi:id="_vLg2cBCZEeiALZLFScVllA" base_Class="_vLJDABCZEeiALZLFScVllA" id="1.3.3.1" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
   <Requirements:Requirement xmi:id="_vfjMwBCZEeiALZLFScVllA" base_Class="_vfaC0RCZEeiALZLFScVllA" id="1.3.3.1" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
   <Requirements:Requirement xmi:id="_vfs9wBCZEeiALZLFScVllA" base_Class="_vfaC0BCZEeiALZLFScVllA" id="1.3.1.1" text="Peut s'inscrire et visiter les environnements virtuels"/>
-  <Requirements:Requirement xmi:id="__otzQBCaEeiALZLFScVllA" base_Class="__ooTsBCaEeiALZLFScVllA" id="1.5" text="Toutes les actions liées à la base de données seront réalisées au travers d'une seule connexion"/>
+  <Requirements:Requirement xmi:id="__otzQBCaEeiALZLFScVllA" base_Class="__ooTsBCaEeiALZLFScVllA" id="1.5" text="Toutes les actions liées à la base de données seront réalisées au travers d'une seule connexion pour tout le site"/>
 </xmi:XMI>

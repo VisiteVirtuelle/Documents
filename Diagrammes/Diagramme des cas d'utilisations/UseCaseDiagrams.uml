@@ -21,7 +21,7 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="__2XzwP-OEee_HZDQrl4f2w" name="Visiteur anonyme"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_IjdfsP-PEee_HZDQrl4f2w" name="Dossier photo"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_LKsnsP-PEee_HZDQrl4f2w" name="Fichier xml"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_NLZ7MP-PEee_HZDQrl4f2w" name="BBD projet"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NLZ7MP-PEee_HZDQrl4f2w" name="BDD projet"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_cCV6QP-PEee_HZDQrl4f2w" name="Visiter les projets autorisés" memberEnd="_cCWhUv-PEee_HZDQrl4f2w _cCWhU_-PEee_HZDQrl4f2w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cCWhUP-PEee_HZDQrl4f2w" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cCWhUf-PEee_HZDQrl4f2w" key="nature" value="UML_Nature"/>

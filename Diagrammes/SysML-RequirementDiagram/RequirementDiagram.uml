@@ -11,6 +11,8 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_AEZJMPrPEeeC-t76JDkNdQ" name="Changement de pièce"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_1RmfkPrPEeeC-t76JDkNdQ" name="Mise à jour"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_tUnI8PrREeeC-t76JDkNdQ" name="Utilisateurs"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_J7UoUBCXEeiyzfYXu1ZdSw" name="Recherche d'un bien virtuel"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_tX9gEBCXEeiyzfYXu1ZdSw" name="Lien unique avec la basde de données"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ELPicPrSEeeC-t76JDkNdQ" name="Visiteur">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_slinAPrSEeeC-t76JDkNdQ" name="Visiteur"/>
@@ -85,11 +87,13 @@
   <Requirements:Requirement xmi:id="_AEi6MPrPEeeC-t76JDkNdQ" base_Class="_AEZJMPrPEeeC-t76JDkNdQ" id="1.1" text="Navigation virtuelle intelligente entre les élements du bien immobilier.&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_1RubYPrPEeeC-t76JDkNdQ" base_Class="_1RmfkPrPEeeC-t76JDkNdQ" id="1.2" text="Les images archivées seront utilisables sur le site&#xD;&#xA;&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_tUtPkPrREeeC-t76JDkNdQ" base_Class="_tUnI8PrREeeC-t76JDkNdQ" id="1.3" text="Les interactions des utilisateurs avec l'application sont différentes selon leur statut"/>
-  <Requirements:Requirement xmi:id="_ELVpEPrSEeeC-t76JDkNdQ" base_Class="_ELPicPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter les environnements virtuels"/>
+  <Requirements:Requirement xmi:id="_ELVpEPrSEeeC-t76JDkNdQ" base_Class="_ELPicPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter la démonstration d'une visite d'un envirronment virtuel."/>
   <Requirements:Refine xmi:id="_dH3_IPrSEeeC-t76JDkNdQ" base_DirectedRelationship="_dHin8PrSEeeC-t76JDkNdQ" base_Abstraction="_dHin8PrSEeeC-t76JDkNdQ"/>
   <Requirements:Requirement xmi:id="_slqi0PrSEeeC-t76JDkNdQ" base_Class="_slinAPrSEeeC-t76JDkNdQ" id="1.3.1" text="Peut s'inscrire et visiter les environnement virtuel"/>
   <Requirements:Requirement xmi:id="_swItcPrSEeeC-t76JDkNdQ" base_Class="_sv7SEPrSEeeC-t76JDkNdQ" id="1.3.2" text="Peut visiter les environnements virtuels et se connecter"/>
   <Requirements:Refine xmi:id="_xSCLUPrSEeeC-t76JDkNdQ" base_DirectedRelationship="_xRvQYPrSEeeC-t76JDkNdQ" base_Abstraction="_xRvQYPrSEeeC-t76JDkNdQ"/>
   <Requirements:Requirement xmi:id="_8JyYAPrSEeeC-t76JDkNdQ" base_Class="_8JkVkPrSEeeC-t76JDkNdQ" id="1.3.3" text="Peut autoriser les visites, archiver des images 360° sur la base de donnée"/>
   <Requirements:Refine xmi:id="_bsPSIPrTEeeC-t76JDkNdQ" base_DirectedRelationship="_bsCd0PrTEeeC-t76JDkNdQ" base_Abstraction="_bsCd0PrTEeeC-t76JDkNdQ"/>
+  <Requirements:Requirement xmi:id="_KMuhYBCXEeiyzfYXu1ZdSw" base_Class="_J7UoUBCXEeiyzfYXu1ZdSw" id="1.4" text="Les utlisateurs pourront rechercher à l'aide de filtre, des biens immbilier précis dans ceux autorisés par l'administrateur. Un visiteur ne pourra cependant pas faire la visite virtuelle."/>
+  <Requirements:Requirement xmi:id="_tYK7cBCXEeiyzfYXu1ZdSw" base_Class="_tX9gEBCXEeiyzfYXu1ZdSw" id="1.5" text="L'accés à la base de donnés sera réglementée et unique dans tout le site. Permettant accés aux images, utilisateurs et visite."/>
 </xmi:XMI>

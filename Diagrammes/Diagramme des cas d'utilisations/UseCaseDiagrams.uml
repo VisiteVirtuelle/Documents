@@ -12,7 +12,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_VN8DsP-OEee_HZDQrl4f2w" name="Préparer et archiver les photos 360°"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_cHYAsP-OEee_HZDQrl4f2w" name="Ajout d'un nouveau bien immobilier"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_llm1sP-OEee_HZDQrl4f2w" name="Se connecter / Se deconnecter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_llm1sP-OEee_HZDQrl4f2w" name="Se connecter / Se déconnecter"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_pla6MP-OEee_HZDQrl4f2w" name="Visiter un bien immobilier"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_x8PbMP-OEee_HZDQrl4f2w" name="S'inscrire sur la plateforme"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_9cRI0P-OEee_HZDQrl4f2w" name="Visiteur inscrit">

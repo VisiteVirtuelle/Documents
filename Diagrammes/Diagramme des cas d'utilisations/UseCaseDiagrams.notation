@@ -180,7 +180,7 @@
     <styles xmi:type="notation:TextStyle" xmi:id="_VfNH8f-QEee_HZDQrl4f2w"/>
     <styles xmi:type="notation:LineTypeStyle" xmi:id="_VfNH8v-QEee_HZDQrl4f2w"/>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VfNH8_-QEee_HZDQrl4f2w" x="329" y="30" width="392" height="512"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VfNH8_-QEee_HZDQrl4f2w" x="313" y="30" width="392" height="512"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_t2uscP-QEee_HZDQrl4f2w" type="Text" fontName="Segoe UI" description="Visite virtuelle de biens immobiliers">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t2uscv-QEee_HZDQrl4f2w" source="PapyrusCSSForceValue">

@@ -16,6 +16,10 @@ Application web PHP de Visite Virtuelle
 
 https://github.com/VisiteVirtuelle/VisiteVirtuelle-WebApp
 
+### VisiteVirtuelle-Symfony
+Application Symfony de Visite Virtuelle
+
+https://github.com/VisiteVirtuelle/VisiteVirtuelle-Symfony
 -----
 
 ## Équipe

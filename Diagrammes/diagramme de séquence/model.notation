@@ -25,7 +25,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IqQnkQgcEeiqPrXGED4UNA" x="83" y="229" width="16" height="33"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#_5QLQ4ABUEeiZXIyaG8KKjQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QO7QQBUEeiZXIyaG8KKjQ" x="282" y="10" width="183" height="854"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QO7QQBUEeiZXIyaG8KKjQ" x="282" y="10" width="183" height="1037"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_-vbu4ABUEeiZXIyaG8KKjQ" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_-vcV8ABUEeiZXIyaG8KKjQ" type="Lifeline_NameLabel"/>
@@ -62,7 +62,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W86pUQgmEeiqPrXGED4UNA" x="42" y="750" width="16" height="23"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#_-vWPUABUEeiZXIyaG8KKjQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-vbu4QBUEeiZXIyaG8KKjQ" x="471" y="10" width="100" height="854"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-vbu4QBUEeiZXIyaG8KKjQ" x="467" y="10" width="100" height="1037"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="__NwpoABUEeiZXIyaG8KKjQ" type="Lifeline_Shape">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sLFtIABYEeiZXIyaG8KKjQ" source="CustomExtensionInfo">
@@ -102,7 +102,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XT3JsQgmEeiqPrXGED4UNA" x="58" y="762" width="16" height="28"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#__NrxIABUEeiZXIyaG8KKjQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NxQsABUEeiZXIyaG8KKjQ" x="704" y="10" width="132" height="854"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NxQsABUEeiZXIyaG8KKjQ" x="704" y="10" width="132" height="1037"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_sGIfwAgbEeiqPrXGED4UNA" type="Lifeline_Shape">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxSvQAgcEeiqPrXGED4UNA" source="CustomExtensionInfo">
@@ -130,7 +130,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_052JYQghEeiqPrXGED4UNA" x="64" y="496" width="16" height="22"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#_sGDnQAgbEeiqPrXGED4UNA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGIfwQgbEeiqPrXGED4UNA" x="134" y="10" width="144" height="854"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGIfwQgbEeiqPrXGED4UNA" x="134" y="10" width="144" height="1037"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_jhaBcAgiEeiqPrXGED4UNA" type="Lifeline_Shape">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lVoYIAgiEeiqPrXGED4UNA" source="CustomExtensionInfo">
@@ -154,7 +154,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wd81YQgmEeiqPrXGED4UNA" x="52" y="726" width="16" height="41"/>
         </children>
         <element xmi:type="uml:Lifeline" href="model.uml#_jhSFoAgiEeiqPrXGED4UNA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jhaogAgiEeiqPrXGED4UNA" x="9" y="10" width="120" height="854"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jhaogAgiEeiqPrXGED4UNA" x="9" y="10" width="120" height="1037"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXcVpABUEeiZXIyaG8KKjQ"/>
     </children>
@@ -163,7 +163,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wv-xcgBUEeiZXIyaG8KKjQ"/>
     </children>
     <element xmi:type="uml:Interaction" href="model.uml#_wIUUgABUEeiZXIyaG8KKjQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXcVpQBUEeiZXIyaG8KKjQ" x="14" y="-7" width="860" height="912"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXcVpQBUEeiZXIyaG8KKjQ" x="58" y="-9" width="860" height="1092"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_wXcVpgBUEeiZXIyaG8KKjQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_wXcVpwBUEeiZXIyaG8KKjQ"/>

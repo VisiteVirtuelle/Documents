@@ -111,7 +111,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="__2ZB6f-OEee_HZDQrl4f2w" y="5"/>
     </children>
     <element xmi:type="uml:Actor" href="UseCaseDiagrams.uml#__2XzwP-OEee_HZDQrl4f2w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__2ZB4f-OEee_HZDQrl4f2w" x="130" y="459"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__2ZB4f-OEee_HZDQrl4f2w" x="129" y="468"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Ijet0P-PEee_HZDQrl4f2w" type="Actor_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_Ijet0v-PEee_HZDQrl4f2w" type="Actor_NameLabel">

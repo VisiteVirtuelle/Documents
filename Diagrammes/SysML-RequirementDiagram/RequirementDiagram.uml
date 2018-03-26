@@ -16,7 +16,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ELPicPrSEeeC-t76JDkNdQ" name="Visiteur">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_slinAPrSEeeC-t76JDkNdQ" name="Visiteur"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_vfaC0BCZEeiALZLFScVllA" name="Opérations de l'utilisateur non conncté">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_vfaC0BCZEeiALZLFScVllA" name="Opérations de l'utilisateur non connecté">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_vfaC0RCZEeiALZLFScVllA" name="Opérations de l'administarteur"/>
       </nestedClassifier>
     </packagedElement>
